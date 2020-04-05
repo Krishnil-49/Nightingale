@@ -7,15 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7406C9B2240AF61F00E33828 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7406C9B1240AF61F00E33828 /* GoogleService-Info.plist */; };
+		7406C9B4240AF7FC00E33828 /* SignUpControllerIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C9B3240AF7FC00E33828 /* SignUpControllerIII.swift */; };
+		7406C9B6240BA3D700E33828 /* SignUpControllerIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C9B5240BA3D700E33828 /* SignUpControllerIV.swift */; };
+		7406C9B8240BA85600E33828 /* SignUpControllerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C9B7240BA85600E33828 /* SignUpControllerV.swift */; };
+		7406C9BA240BB4F400E33828 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C9B9240BB4F400E33828 /* HomeViewController.swift */; };
+		7406C9BD240BC46800E33828 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C9BC240BC46800E33828 /* CustomTabBarController.swift */; };
+		743439C8242750270020C526 /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743439C7242750270020C526 /* Premium.swift */; };
+		743439CA2427CB890020C526 /* PremiumHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743439C92427CB890020C526 /* PremiumHeaderView.swift */; };
+		743439CE242922A00020C526 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743439CD242922A00020C526 /* OfferCell.swift */; };
 		743A4DDB24098216008989C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A4DDA24098216008989C5 /* AppDelegate.swift */; };
 		743A4DDD24098216008989C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A4DDC24098216008989C5 /* SceneDelegate.swift */; };
 		743A4DDF24098216008989C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A4DDE24098216008989C5 /* ContentView.swift */; };
 		743A4DE12409821B008989C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743A4DE02409821B008989C5 /* Assets.xcassets */; };
 		743A4DE42409821B008989C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743A4DE32409821B008989C5 /* Preview Assets.xcassets */; };
 		743A4DE72409821B008989C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743A4DE52409821B008989C5 /* LaunchScreen.storyboard */; };
+		743A4DF024098479008989C5 /* LoginOptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A4DEF24098479008989C5 /* LoginOptionsController.swift */; };
+		7460A149240C730500E15C45 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A148240C730500E15C45 /* CategoryCell.swift */; };
+		7460A1642411514800E15C45 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A1632411514800E15C45 /* SearchViewController.swift */; };
+		7460A1662411516000E15C45 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A1652411516000E15C45 /* LibraryViewController.swift */; };
+		7460A1682411519B00E15C45 /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A1672411519B00E15C45 /* PremiumViewController.swift */; };
+		7460A16A241151B800E15C45 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A169241151B800E15C45 /* SettingsViewController.swift */; };
+		7460A16D241152A600E15C45 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A16C241152A600E15C45 /* SongCell.swift */; };
+		7460A17A241398F000E15C45 /* Indila - Dernière Danse (Clip Officiel).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7460A179241398F000E15C45 /* Indila - Dernière Danse (Clip Officiel).mp3 */; };
+		749180B22409BFA600C60ED7 /* EmailLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749180B12409BFA600C60ED7 /* EmailLoginController.swift */; };
+		749180B6240A8FB400C60ED7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749180B5240A8FB400C60ED7 /* LoginController.swift */; };
+		749180B8240AA08C00C60ED7 /* SignUpControllerI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749180B7240AA08C00C60ED7 /* SignUpControllerI.swift */; };
+		749180BA240AA86400C60ED7 /* SignUpControllerII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749180B9240AA86400C60ED7 /* SignUpControllerII.swift */; };
+		74B6582D2424BD7C0026585A /* Camila Cabello - Señorita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74B6582C2424BD7C0026585A /* Camila Cabello - Señorita.mp3 */; };
+		74B6582F2424C8F00026585A /* SoundDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6582E2424C8F00026585A /* SoundDetailsViewController.swift */; };
+		74B658312424C9780026585A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B658302424C9780026585A /* Sound.swift */; };
+		74B901C224272A8600387C82 /* PremiumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B901C124272A8600387C82 /* PremiumCell.swift */; };
+		9DD9FF15581346AEA6AFD90A /* Pods_Nightingale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E42F1F597FFB211E4925EE /* Pods_Nightingale.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37E42F1F597FFB211E4925EE /* Pods_Nightingale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nightingale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FF865D2351E405D69B16BE /* Pods-Nightingale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nightingale.release.xcconfig"; path = "Target Support Files/Pods-Nightingale/Pods-Nightingale.release.xcconfig"; sourceTree = "<group>"; };
+		7406C9B1240AF61F00E33828 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7406C9B3240AF7FC00E33828 /* SignUpControllerIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerIII.swift; sourceTree = "<group>"; };
+		7406C9B5240BA3D700E33828 /* SignUpControllerIV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerIV.swift; sourceTree = "<group>"; };
+		7406C9B7240BA85600E33828 /* SignUpControllerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerV.swift; sourceTree = "<group>"; };
+		7406C9B9240BB4F400E33828 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7406C9BC240BC46800E33828 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		743439C7242750270020C526 /* Premium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
+		743439C92427CB890020C526 /* PremiumHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumHeaderView.swift; sourceTree = "<group>"; };
+		743439CD242922A00020C526 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
 		743A4DD724098216008989C5 /* Nightingale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nightingale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		743A4DDA24098216008989C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		743A4DDC24098216008989C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +61,23 @@
 		743A4DE32409821B008989C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		743A4DE62409821B008989C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		743A4DE82409821B008989C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743A4DEF24098479008989C5 /* LoginOptionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsController.swift; sourceTree = "<group>"; };
+		7460A148240C730500E15C45 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		7460A1632411514800E15C45 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7460A1652411516000E15C45 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		7460A1672411519B00E15C45 /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
+		7460A169241151B800E15C45 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7460A16C241152A600E15C45 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		7460A179241398F000E15C45 /* Indila - Dernière Danse (Clip Officiel).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Indila - Dernière Danse (Clip Officiel).mp3"; path = "../Indila - Dernière Danse (Clip Officiel).mp3"; sourceTree = "<group>"; };
+		749180B12409BFA600C60ED7 /* EmailLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginController.swift; sourceTree = "<group>"; };
+		749180B5240A8FB400C60ED7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		749180B7240AA08C00C60ED7 /* SignUpControllerI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerI.swift; sourceTree = "<group>"; };
+		749180B9240AA86400C60ED7 /* SignUpControllerII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerII.swift; sourceTree = "<group>"; };
+		74B6582C2424BD7C0026585A /* Camila Cabello - Señorita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Camila Cabello - Señorita.mp3"; sourceTree = "<group>"; };
+		74B6582E2424C8F00026585A /* SoundDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailsViewController.swift; sourceTree = "<group>"; };
+		74B658302424C9780026585A /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		74B901C124272A8600387C82 /* PremiumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCell.swift; sourceTree = "<group>"; };
+		C67F8F10D66CD93AAFC07F8C /* Pods-Nightingale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nightingale.debug.xcconfig"; path = "Target Support Files/Pods-Nightingale/Pods-Nightingale.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD9FF15581346AEA6AFD90A /* Pods_Nightingale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E2BE50280AAC05DA8286FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C67F8F10D66CD93AAFC07F8C /* Pods-Nightingale.debug.xcconfig */,
+				51FF865D2351E405D69B16BE /* Pods-Nightingale.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7406C9BB240BBF4400E33828 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74B658302424C9780026585A /* Sound.swift */,
+				743439C7242750270020C526 /* Premium.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		743A4DCE24098216008989C5 = {
 			isa = PBXGroup;
 			children = (
 				743A4DD924098216008989C5 /* Nightingale */,
 				743A4DD824098216008989C5 /* Products */,
+				5E2BE50280AAC05DA8286FF7 /* Pods */,
+				E1FA44F36C34F40BEE58FFD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +131,14 @@
 		743A4DD924098216008989C5 /* Nightingale */ = {
 			isa = PBXGroup;
 			children = (
-				743A4DDA24098216008989C5 /* AppDelegate.swift */,
-				743A4DDC24098216008989C5 /* SceneDelegate.swift */,
-				743A4DDE24098216008989C5 /* ContentView.swift */,
+				743A4DEE2409833E008989C5 /* Supporting Files */,
+				7406C9BB240BBF4400E33828 /* Models */,
+				7460A1622411506900E15C45 /* View */,
+				749180B42409BFC100C60ED7 /* View Controllers */,
 				743A4DE02409821B008989C5 /* Assets.xcassets */,
-				743A4DE52409821B008989C5 /* LaunchScreen.storyboard */,
+				7460A17B241398FE00E15C45 /* Songs */,
 				743A4DE82409821B008989C5 /* Info.plist */,
+				7406C9B1240AF61F00E33828 /* GoogleService-Info.plist */,
 				743A4DE22409821B008989C5 /* Preview Content */,
 			);
 			path = Nightingale;
@@ -75,6 +152,84 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		743A4DEE2409833E008989C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				743A4DDA24098216008989C5 /* AppDelegate.swift */,
+				743A4DDC24098216008989C5 /* SceneDelegate.swift */,
+				743A4DDE24098216008989C5 /* ContentView.swift */,
+				743A4DE52409821B008989C5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7460A1622411506900E15C45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7460A148240C730500E15C45 /* CategoryCell.swift */,
+				7460A16C241152A600E15C45 /* SongCell.swift */,
+				74B901C124272A8600387C82 /* PremiumCell.swift */,
+				743439C92427CB890020C526 /* PremiumHeaderView.swift */,
+				743439CD242922A00020C526 /* OfferCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7460A16B241151DC00E15C45 /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7406C9BC240BC46800E33828 /* CustomTabBarController.swift */,
+				7406C9B9240BB4F400E33828 /* HomeViewController.swift */,
+				74B6582E2424C8F00026585A /* SoundDetailsViewController.swift */,
+				7460A1632411514800E15C45 /* SearchViewController.swift */,
+				7460A1652411516000E15C45 /* LibraryViewController.swift */,
+				7460A1672411519B00E15C45 /* PremiumViewController.swift */,
+				7460A169241151B800E15C45 /* SettingsViewController.swift */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		7460A17B241398FE00E15C45 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				74B6582C2424BD7C0026585A /* Camila Cabello - Señorita.mp3 */,
+				7460A179241398F000E15C45 /* Indila - Dernière Danse (Clip Officiel).mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		749180B32409BFAB00C60ED7 /* Email Login */ = {
+			isa = PBXGroup;
+			children = (
+				749180B12409BFA600C60ED7 /* EmailLoginController.swift */,
+				749180B5240A8FB400C60ED7 /* LoginController.swift */,
+				749180B7240AA08C00C60ED7 /* SignUpControllerI.swift */,
+				749180B9240AA86400C60ED7 /* SignUpControllerII.swift */,
+				7406C9B3240AF7FC00E33828 /* SignUpControllerIII.swift */,
+				7406C9B5240BA3D700E33828 /* SignUpControllerIV.swift */,
+				7406C9B7240BA85600E33828 /* SignUpControllerV.swift */,
+			);
+			path = "Email Login";
+			sourceTree = "<group>";
+		};
+		749180B42409BFC100C60ED7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				743A4DEF24098479008989C5 /* LoginOptionsController.swift */,
+				749180B32409BFAB00C60ED7 /* Email Login */,
+				7460A16B241151DC00E15C45 /* Tab Bar Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E1FA44F36C34F40BEE58FFD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E42F1F597FFB211E4925EE /* Pods_Nightingale.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 743A4DEB2409821B008989C5 /* Build configuration list for PBXNativeTarget "Nightingale" */;
 			buildPhases = (
+				ED78DE30C83218285F44D167 /* [CP] Check Pods Manifest.lock */,
 				743A4DD324098216008989C5 /* Sources */,
 				743A4DD424098216008989C5 /* Frameworks */,
 				743A4DD524098216008989C5 /* Resources */,
+				10660F1EBD79B2C6E761CAE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,7 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B6582D2424BD7C0026585A /* Camila Cabello - Señorita.mp3 in Resources */,
 				743A4DE72409821B008989C5 /* LaunchScreen.storyboard in Resources */,
+				7406C9B2240AF61F00E33828 /* GoogleService-Info.plist in Resources */,
+				7460A17A241398F000E15C45 /* Indila - Dernière Danse (Clip Officiel).mp3 in Resources */,
 				743A4DE42409821B008989C5 /* Preview Assets.xcassets in Resources */,
 				743A4DE12409821B008989C5 /* Assets.xcassets in Resources */,
 			);
@@ -141,14 +301,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10660F1EBD79B2C6E761CAE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nightingale/Pods-Nightingale-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nightingale/Pods-Nightingale-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nightingale/Pods-Nightingale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED78DE30C83218285F44D167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nightingale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		743A4DD324098216008989C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7460A1642411514800E15C45 /* SearchViewController.swift in Sources */,
+				74B901C224272A8600387C82 /* PremiumCell.swift in Sources */,
+				749180B22409BFA600C60ED7 /* EmailLoginController.swift in Sources */,
+				7460A1682411519B00E15C45 /* PremiumViewController.swift in Sources */,
+				749180B6240A8FB400C60ED7 /* LoginController.swift in Sources */,
+				743439C8242750270020C526 /* Premium.swift in Sources */,
+				749180B8240AA08C00C60ED7 /* SignUpControllerI.swift in Sources */,
+				7460A149240C730500E15C45 /* CategoryCell.swift in Sources */,
+				74B6582F2424C8F00026585A /* SoundDetailsViewController.swift in Sources */,
+				74B658312424C9780026585A /* Sound.swift in Sources */,
+				743A4DF024098479008989C5 /* LoginOptionsController.swift in Sources */,
 				743A4DDB24098216008989C5 /* AppDelegate.swift in Sources */,
 				743A4DDD24098216008989C5 /* SceneDelegate.swift in Sources */,
+				743439CA2427CB890020C526 /* PremiumHeaderView.swift in Sources */,
 				743A4DDF24098216008989C5 /* ContentView.swift in Sources */,
+				749180BA240AA86400C60ED7 /* SignUpControllerII.swift in Sources */,
+				7460A1662411516000E15C45 /* LibraryViewController.swift in Sources */,
+				7406C9B6240BA3D700E33828 /* SignUpControllerIV.swift in Sources */,
+				7460A16D241152A600E15C45 /* SongCell.swift in Sources */,
+				7406C9B8240BA85600E33828 /* SignUpControllerV.swift in Sources */,
+				7406C9BD240BC46800E33828 /* CustomTabBarController.swift in Sources */,
+				7406C9B4240AF7FC00E33828 /* SignUpControllerIII.swift in Sources */,
+				743439CE242922A00020C526 /* OfferCell.swift in Sources */,
+				7406C9BA240BB4F400E33828 /* HomeViewController.swift in Sources */,
+				7460A16A241151B800E15C45 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +506,7 @@
 		};
 		743A4DEC2409821B008989C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F8F10D66CD93AAFC07F8C /* Pods-Nightingale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +521,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppFactory.Nightingale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		743A4DED2409821B008989C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FF865D2351E405D69B16BE /* Pods-Nightingale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppFactory.Nightingale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

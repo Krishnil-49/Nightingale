@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>28752186927-t8hp80jsnrgfvhjsmj1srdl80bhlkd57.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.28752186927-t8hp80jsnrgfvhjsmj1srdl80bhlkd57</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDP70AK8XxqND9Ud2h6N2PZCmHgk2KAXm0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>28752186927</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AppFactory.Nightingale</string>
+	<key>PROJECT_ID</key>
+	<string>nightingale-b1ffa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nightingale-b1ffa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:28752186927:ios:4fc99d5337185a636800da</string>
+	<key>DATABASE_URL</key>
+	<string>https://nightingale-b1ffa.firebaseio.com</string>
+</dict>
+</plist>
